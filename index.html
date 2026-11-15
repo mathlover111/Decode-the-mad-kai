@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decode the mad kai</title>
+    <!-- 引入外部 CSS 樣式表 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>decode the mad kai</h1>
+    </header>
+
+    <main class="translator-container">
+        <!-- 頂部模式切換列 -->
+        <div class="mode-bar">
+            <span id="left-label" class="lang-label">中文原文 (髒話模式)</span>
+            <button id="swap-btn" title="切換轉換方向">⇄</button>
+            <span id="right-label" class="lang-label">Base64 亂碼</span>
+        </div>
+
+        <!-- 左右翻譯區 -->
+        <div class="box-wrapper">
+            <!-- 左側輸入區 -->
+            <div class="text-panel">
+                <textarea id="input-text" placeholder="在這裡輸入想說的話..."></textarea>
+                <div class="panel-footer">
+                    <button id="clear-btn" class="action-btn">清除</button>
+                </div>
+            </div>
+
+            <!-- 右側輸出區 -->
+            <div class="text-panel output-panel">
+                <textarea id="output-text" readonly placeholder="轉換結果會即時顯示在這裡..."></textarea>
+                <div class="panel-footer">
+                    <span id="copy-status" class="status-msg"></span>
+                    <button id="copy-btn" class="action-btn primary">複製結果</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 引入外部 JavaScript 邏輯 -->
+    <script src="script.js"></script>
+</body>
+</html>
