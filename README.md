@@ -2,6 +2,7 @@
 
 製造動機：由於本人熱愛髒話噴別人沒有老媽，然後發文就被ban了，因此決定讓我的行為變成Base64，這樣就可以繼續羞辱別人(弌▼Дﾟ)╭╂v╤═一
 * **使用gemini**
+ 
 [![網址](https://img.shields.io/badge/訪問網頁-點我前往-blue?style=for-the-badge&logo=google-chrome)](https://mathlover111.github.io/Decode-the-mad-kai/)
 
 ## 使用技術
