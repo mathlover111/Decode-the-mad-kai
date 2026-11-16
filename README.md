@@ -7,6 +7,6 @@
 
 ## 使用技術
 * ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript**：核心編碼與解碼邏輯（使用 `btoa()` 與 `atob()`）
-* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) **HTML5** / ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) **CSS3**：Google 翻譯風介面與手機響應式排版
+* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) **HTML5** / ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) 
 
 下面是用Base64轉換語言，中文可以轉換成編碼，就相當於google翻譯，也可以複製編碼，中文和Base64也可以互相轉換，手機用排版也不會亂。
