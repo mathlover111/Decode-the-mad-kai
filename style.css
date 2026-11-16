@@ -109,8 +109,8 @@ textarea {
 }
 
 .action-btn {
-    padding: 6px 14px;
-    font-size: 13px;
+    padding: 8px 16px; /* 稍微加大按鈕，手機點擊更好按 */
+    font-size: 14px;
     border: 1px solid #dadce0;
     border-radius: 4px;
     background-color: #ffffff;
@@ -137,7 +137,7 @@ textarea {
     color: #188038;
 }
 
-/* 手機版自動切換為上下排列 */
+/* 手機版自動切換為上下排列，並優化觸控體驗 */
 @media (max-width: 768px) {
     .box-wrapper {
         flex-direction: column;
@@ -147,6 +147,7 @@ textarea {
         border-bottom: 1px solid #dadce0;
     }
     textarea {
-        min-height: 140px;
+        min-height: 180px; /* 手機打字區稍微拉高 */
+        font-size: 16px;   /* 避免 iOS 瀏覽器點擊輸入框時畫面自動放大 */
     }
 }
